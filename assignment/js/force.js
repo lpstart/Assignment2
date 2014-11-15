@@ -76,7 +76,7 @@
 									.on("dragstart",dragstart);			
 			edges.style("stroke", "#555")
 			     .style("stroke-width", 1);
-			edges_text.style("fill","black")
+			edges_text.style("fill","red")
 					      .text(function(d){
 	        						return d.relation;
 	        					});			
